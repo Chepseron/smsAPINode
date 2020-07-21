@@ -1,0 +1,30 @@
+{
+  "name": "smsapi",
+  "version": "1.0.0",
+  "description": "this is an sms api ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chepseron/smsApi.git"
+  },
+  "keywords": [
+    "smsapi"
+  ],
+  "author": "Amon Sabul",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Chepseron/smsApi/issues"
+  },
+  "homepage": "https://github.com/Chepseron/smsApi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
